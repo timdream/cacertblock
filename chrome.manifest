@@ -1,0 +1,6 @@
+content	cacertblock	content/
+locale	cacertblock	en-US	locale/en-US/
+locale	cacertblock	zh-TW	locale/zh-TW/
+locale	cacertblock	zh-HK	locale/zh-HK/
+overlay	chrome://browser/content/browser.xul	chrome://cacertblock/content/overlay.xul
+overlay	chrome://messenger/content/messenger.xul	chrome://cacertblock/content/overlay.xul

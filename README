@@ -1,0 +1,5 @@
+This extension will look for CNNIC CA certificates and try to delete them.
+
+Since built-in CA certs cannot actually be deleted, the extension will disable it instead.
+
+It runs every time window is opened. Should be "onprogramstartup" instead (how?)
