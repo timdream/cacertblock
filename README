@@ -1,5 +1,16 @@
-This extension will look for CNNIC CA certificates and try to delete them.
+CA Untrustworthy
+================
 
+This extension will look for CNNIC CA certificates and try to delete them.
 Since built-in CA certs cannot actually be deleted, the extension will disable it instead.
 
 It runs every time window is opened. Should be "onprogramstartup" instead (how?)
+
+此套件會在每次視窗開啟時試圖刪除已知的 CNNIC 憑證機構憑證。
+內建的憑證無法被刪除，只能被停用。
+
+想要測試的話請試著連接下列網站：
+https://tns-fsverify.cnnic.cn/
+https://www.enum.cn/
+
+套件會在每次開啟新視窗時執行並且將記錄傳至錯誤主控台。

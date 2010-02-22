@@ -27,7 +27,7 @@ var cacertblock = {
 
 			for (j in this.sha1) {
 				if (cert.sha1Fingerprint === this.sha1[j]) {
-					aConsoleService.logStringMessage("CNNIC CA Cert Block: Found cert '" + cert.commonName + "' and attempt to delete or disabled it.\nThis message may show up next time for built-in CA certs since they cannot be deleted but only disabled.");
+					aConsoleService.logStringMessage("CA Untrustworthy: Found cert '" + cert.commonName + "' and attempt to delete or disabled it.\nThis message may show up next time for built-in CA certs since they cannot be deleted but only disabled.");
 					caTreeView.deleteEntryObject(i);
 				}
 			}

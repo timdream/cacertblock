@@ -3,10 +3,10 @@
  xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
     <em:id>cacertblock@timc.idv.tw</em:id>
-    <em:name>CNNIC CA Cert Block</em:name>
+    <em:name>CA Untrustworthy</em:name>
     <em:version>0.1</em:version>
     <em:creator>Timothy Guan-tin Chien</em:creator>
-    <em:description>Delete or disable CA certificates owned by CNNIC</em:description>
+    <em:description>Delete or disable CA certificates owned by CNNIC.</em:description>
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- firefox -->
@@ -18,7 +18,7 @@
       <Description>
         <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id> <!-- thunderbird -->
         <em:minVersion>1.5</em:minVersion>
-        <em:maxVersion>3.1.*</em:maxVersion>
+        <em:maxVersion>3.0.0.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>
